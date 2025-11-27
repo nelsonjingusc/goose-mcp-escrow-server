@@ -1,0 +1,33 @@
+{
+  "name": "escrow-server",
+  "label": "MCP Escrow Server",
+  "version": "0.1.0",
+  "tools": [
+    {
+      "name": "escrow_plan",
+      "description": "Generate a safe deterministic action plan from user intent",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "action": { "type": "string" },
+          "target": { "type": "string" },
+          "amount": { "type": "number" },
+          "risk_level": { "type": "string" }
+        },
+        "required": ["action", "target"]
+      }
+    },
+    {
+      "name": "escrow_execute",
+      "description": "Simulate commit or rollback of a planned action",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "plan_id": { "type": "string" },
+          "confirm": { "type": "boolean" }
+        },
+        "required": ["plan_id", "confirm"]
+      }
+    }
+  ]
+}

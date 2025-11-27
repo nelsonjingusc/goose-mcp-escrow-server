@@ -1,0 +1,1 @@
+"""Escrow planning package for Goose MCP server."""
