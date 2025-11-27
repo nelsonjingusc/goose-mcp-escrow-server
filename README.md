@@ -393,9 +393,9 @@ The escrow planning pattern is inspired by work on verifiable agent workflows, p
 ## Contact
 
 For questions, collaboration, or grant inquiries:
-- GitHub Issues: [github.com/yourusername/goose-mcp-escrow-server/issues]
-- Email: your-email@example.com
-- Twitter: @yourhandle
+- GitHub Issues: [github.com/nelsonjingusc/goose-mcp-escrow-server/issues]
+- Email: nelson.jingusc@gmail.com
+- Telegram: @nelsonjingusc
 
 ---
 
