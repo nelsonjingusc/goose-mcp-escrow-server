@@ -1,0 +1,7 @@
+{
+  "tool": "escrow_execute",
+  "input": {
+    "plan_id": "f0bc9ece-b1f7-4f33-9abd-707ab9725e06",
+    "confirm": true
+  }
+}

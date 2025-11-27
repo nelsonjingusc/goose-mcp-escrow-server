@@ -1,0 +1,9 @@
+{
+  "tool": "escrow_plan",
+  "input": {
+    "action": "allocate",
+    "target": "resource_1",
+    "amount": 100,
+    "risk_level": "low"
+  }
+}
